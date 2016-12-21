@@ -1,0 +1,9 @@
+ar* _IO_read_ptr;	/* Current read pointer */
+  char* _IO_read_end;	/* End of get area. */
+    char* _IO_read_base;	/* Start of putback+get area. */
+	  char* _IO_write_base;	/* Start of put area. */
+	    char* _IO_write_ptr;	/* Current put pointer. */
+		  char* _IO_write_end;	/* End of put area. */
+		    char* _IO_buf_base;	/* Start of reserve area. */
+			  char* _IO_buf_end;	/* End of reserve  *_IO_save_end; /* Poi
+				

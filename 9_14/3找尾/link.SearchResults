@@ -1,0 +1,6 @@
+
+---- findtail Matches (4 in 4 files) ----
+Insertlink.c:			plink=findtail(plink);
+Linkheader.h:Link * findtail(Link * plink);
+Menu.c:					ptail=findtail(linkhead);
+Tail.c:Link * findtail(Link * plink)
